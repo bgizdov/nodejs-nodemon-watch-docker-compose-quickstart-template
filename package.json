@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "superheroes": "^3.0.0"
+  },
+  "name": "nodejs-docker-watch",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm start",
+    "dev:nodemon": "nodemon --watch server.js",
+    "dev:nodewatch": "node --watch server.js"
+  },
+  "author": "Borislav Gizdov",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
