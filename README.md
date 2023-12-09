@@ -12,13 +12,13 @@ docker-compose up
 ```
 
 ## To use node --watch
-Change command in docker-compose.yml
+Change the command in docker-compose.yml
 ```
 command: npm run dev:nodewatch
 ```
 
 ## To use nodemon
-Change command in docker-compose.yml
+Change the command in docker-compose.yml
 ```
 command: npm run dev:nodemon
 ```
